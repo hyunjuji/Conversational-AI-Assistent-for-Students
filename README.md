@@ -3,7 +3,7 @@
 ### *Conversational AI Agent Support System for College Students*
 
 
-## ## **Project Structure**
+## **Project Structure**
 
 ```bash
 project/
@@ -25,7 +25,7 @@ project/
 
 ---
 
-## ## **Key Features**
+## **Key Features**
 
 | Feature                  | Description |
 |-------------------------|-------------|
@@ -38,9 +38,9 @@ project/
 
 ---
 
-## ## **Installation**
+## **Installation**
 
-### ### 1. Install Dependencies
+### 1. Install Dependencies
 
 Using uv:
 ```bash
@@ -49,7 +49,7 @@ uv sync
 
 ---
 
-### ### 2. Environment Variables Setup
+### 2. Environment Variables Setup
 
 Create a `.env` file in the project root and include:
 
@@ -61,7 +61,7 @@ AZURE_OPENAI_DEPLOYMENT=your_model_name
 
 ---
 
-### ### 3. Google Calendar Setup (Optional)
+### 3. Google Calendar Setup (Optional)
 
 Place your OAuth credential file at:
 ```
@@ -71,7 +71,7 @@ The first run will authenticate and generate a token file for the user automatic
 
 ---
 
-## ## **Running the Application**
+## **Running the Application**
 
 ```bash
 uv run python app.py
@@ -81,7 +81,7 @@ The Gradio chat interface will open in your browser.
 
 ---
 
-## ## **Security Notice**
+## **Security Notice**
 
 The following files and directories are excluded from version control to protect sensitive information:
 
@@ -98,7 +98,7 @@ Each user must configure these locally to run the application.
 
 ---
 
-## ## **Database Usage Example**
+## **Database Usage Example**
 
 ```python
 from src.db_functions import query_university_db
