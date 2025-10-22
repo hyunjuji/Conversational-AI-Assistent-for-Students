@@ -1,5 +1,5 @@
 
-# **GT Assistant**
+# **AI Student Assistant**
 ### *AI-Powered Academic Support System for Georgia Tech Students*
 
 GT Assistant is an intelligent agent-based system designed to assist Georgia Tech students by providing academic insights, personalized course recommendations, calendar automation, and database querying capabilities. It integrates Azure OpenAI, Google Calendar API, local SQLite databases, and a Gradio-based user interface for interactive usage.
