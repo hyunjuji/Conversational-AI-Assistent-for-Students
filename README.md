@@ -1,8 +1,4 @@
 
-# **AI Student Assistant**
-### *Conversational AI Agent Support System for College Students*
-
-
 ## **Project Structure**
 
 ```bash
