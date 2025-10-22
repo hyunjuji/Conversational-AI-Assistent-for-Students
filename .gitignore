@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.env
+*.json
+
+# database
+data/
+programs/
+credentials/
+*.db
+
+# etc
+uv.lock
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

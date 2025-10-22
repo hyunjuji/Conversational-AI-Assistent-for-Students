@@ -1,0 +1,17 @@
+[project]
+name = "08-demo2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "dotenv>=0.9.9",
+    "duckduckgo-search>=8.1.1",
+    "google>=3.0.0",
+    "google-api-python-client>=2.185.0",
+    "google-auth>=2.41.1",
+    "google-auth-oauthlib>=1.2.2",
+    "gradio>=4.44.1",
+    "openai>=2.6.0",
+    "pypdf2>=3.0.1",
+]
