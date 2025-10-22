@@ -1,23 +1,19 @@
 
 # **AI Student Assistant**
-### *AI-Powered Academic Support System for College Students*
+### *Conversational AI Agent Support System for College Students*
 
-AI Student Assistant is an intelligent agent-based system designed to assist College students by providing academic insights, personalized course recommendations, calendar automation, and database querying capabilities. It integrates Azure OpenAI, Google Calendar API, local SQLite databases, and a Gradio-based user interface for interactive usage.
-
----
 
 ## ## **Project Structure**
 
 ```bash
 project/
-├── app.py                  # Main application entry point
+├── app.py                  # Main application(Agent orchestration logic)
 ├── README.md
 ├── pyproject.toml / requirements.txt
 ├── data/                  # Local SQLite database files (excluded from Git)
 ├── credentials/           # Google API credentials and OAuth tokens (excluded from Git)
 ├── programs/              # Reference documents (excluded from Git)
 ├── src/
-│   ├── main.py            # Agent orchestration logic
 │   ├── gradio_app.py      # Gradio interface initialization
 │   ├── gt_tools.py        # Tool registry and integration logic
 │   ├── db_functions.py    # Database utility functions
@@ -51,11 +47,6 @@ Using uv:
 uv sync
 ```
 
-Or using pip:
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ### ### 2. Environment Variables Setup
@@ -84,11 +75,6 @@ The first run will authenticate and generate a token file for the user automatic
 
 ```bash
 uv run python app.py
-```
-or
-
-```bash
-uv run python -m src.main
 ```
 
 The Gradio chat interface will open in your browser.
@@ -123,39 +109,6 @@ print(result)
 
 ---
 
-## ## **Roadmap**
-
-- Streamlit interface support
-- FastAPI backend option
-- User authentication capabilities
-- Persistent memory for conversational agents
-
----
-
-## ## **Contribution Guidelines**
-
-1. Fork this repository  
-2. Create a new branch:  
-   ```bash
-   git checkout -b feature/your-feature
-   ```  
-3. Commit your changes:  
-   ```bash
-   git commit -m "Add new feature"
-   ```  
-4. Submit a Pull Request
-
----
-
 ## ## **License**
 
 This project is intended for educational and research purposes. Sensitive data such as API keys and database files are not included in this repository.
-
----
-
-## ## **Contact**
-
-Author: Hyunju Ji 
-Email: hji72@gatech.edu
-
-For feedback or feature requests, please use the GitHub Issues page.  
